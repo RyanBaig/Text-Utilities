@@ -2,7 +2,7 @@ name: Django CI/CD
 
 on:
   push:
-    branches: [ main ] # Adjust branch as needed
+    branches: [ master ] # Adjust branch as needed
 
 jobs:
   build:
