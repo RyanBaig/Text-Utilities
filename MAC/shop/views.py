@@ -23,6 +23,10 @@ def productView(request):
 def checkout(request):
     return HttpResponse("We r at checkout")
 
+#               QUIZ 
+# def login(request):
+#   return HttpResponse("We r at login")
 
-
+# def signup(request):
+#   return HttpResponse("We r at signup")
 

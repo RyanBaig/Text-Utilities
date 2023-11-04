@@ -11,4 +11,8 @@ urlpatterns = [
     path('search/', views.search, name="Search"),
     path('productview/', views.productView, name="ProductView"),
     path('checkout/', views.checkout, name="Checkout"),
+    
+    #                 QUIZ
+    # path('login/', views.login, name="Login"),
+    # path('signup/', views.signup, name="SignUp"),
 ]
